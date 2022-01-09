@@ -4,7 +4,7 @@ import { compilerOptions } from './tsconfig.json';
 export default {
   preset: 'ts-jest',
   clearMocks: true,
-  collectCoverage: true,
+
   coverageDirectory: 'coverage',
   coveragePathIgnorePatterns: [
     '/node_modules/',
