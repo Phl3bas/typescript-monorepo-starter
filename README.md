@@ -24,8 +24,8 @@ techstack used
 
 ```bash
 
-    yarn dev # start dev server - yarn dev core (run dev server for package 'core')
-    yarn build # run build - yarn build core (build core pacakge) [flags: --f/--formats, --s/--sourceMap]
+    yarn dev # start build in watch mode - yarn dev core (run watch mode for package 'core') yarn dev core (build core package) [flags: --f/--formats, --s/--sourceMap]
+    yarn build # run build - yarn build core (build core package) [flags: --f/--formats, --s/--sourceMap]
     yarn new # creates a new boilerplate package in packages folder
     yarn test # run unit tests
     yarn test:coverage # run unit tests in coverage mode
