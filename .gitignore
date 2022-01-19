@@ -4,3 +4,4 @@ package-lock.json
 yarn.lock
 lerna-debug.log
 dist
+yarn-error.log

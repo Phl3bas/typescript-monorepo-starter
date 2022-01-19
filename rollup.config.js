@@ -20,7 +20,7 @@ const name = packageOptions.filename || path.basename(packageDir);
 export default {
   input: resolve('src/index.ts'),
   output: {
-    file: resolve(`dist/${name}.esm-browser.js`),
+    file: resolve(`dist/index.${name}.js`),
     format: 'es',
 
   },
