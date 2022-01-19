@@ -57,3 +57,13 @@ export const fuzzyMatchTarget = (partialTargets, includeAllMatching) => {
 
   return process.exit(1);
 };
+
+export function throwError(msg, clear = true) {
+  if (clear) {
+    console.clear();
+  }
+  console.error('Project Script Error');
+  console.error('--------------------');
+
+  throw Error(msg);
+}
