@@ -17,7 +17,7 @@ techstack used
 ## install
 
 ```bash 
-    npx degit git:Phl3bas/typescript-monorepo-starter
+    npx degit Phl3bas/typescript-monorepo-starter
 ```
 
 ## scripts
