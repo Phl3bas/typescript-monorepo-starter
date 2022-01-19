@@ -41,7 +41,7 @@ try {
       'dist',
     ],
     scripts: {
-      test: 'echo "Error: run tests from root" && exit 1',
+      test: `jest -c=../../jest.config.ts ${newPackageName}`,
     },
   }, null, 2);
 

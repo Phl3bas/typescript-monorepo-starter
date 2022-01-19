@@ -2,18 +2,20 @@
   "name": "core",
   "version": "0.0.0",
   "description": "> TODO: description",
-  "author": "Sepp Wikramaratna-Clarke <Phl3bas87@gmail.com>",
+  "author": "> TODO: author",
   "homepage": "",
-  "license": "ISC",
-  "main": "dist/index.js",
+  "license": "> TODO: license",
+  "main": "dist/index.core.js",
+  "types" : "dist/index.core.d.ts",
   "directories": {
     "dist": "dist",
     "test": "__tests__"
   },
-  "files": [
-    "dist"
-  ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+    "test" :"jest -c=../../jest.config.ts core"
+  },
+  "files": [
+    "dist",
+    "README.md","LICENSE"
+  ]
 }

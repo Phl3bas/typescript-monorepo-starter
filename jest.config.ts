@@ -14,6 +14,7 @@ export default {
   },
   coverageProvider: 'v8',
   testMatch: [
+    '?(*.)+(spec|test).[tj]s?(x)',
     '**/__tests__/**/*.[jt]s?(x)',
     '**/?(*.)+(spec|test).[tj]s?(x)',
   ],
